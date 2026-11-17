@@ -1,0 +1,103 @@
+$ S-01  grep -rnE "runOnUiThread|AsyncTask" src/main/java
+(exit status 1 ; 1 = no matches)
+
+$ S-01b background work + result delivery
+repository/TrafficRepository.java:33:import java.util.concurrent.ExecutorService;
+repository/TrafficRepository.java:35:import java.util.concurrent.ScheduledExecutorService;
+repository/TrafficRepository.java:38:import java.util.concurrent.atomic.AtomicBoolean;
+repository/TrafficRepository.java:43: * All network, file and XML work runs on background executors; results are publish
+repository/TrafficRepository.java:84:    private final ExecutorService networkExecutor = Executors.newFixedThreadPool(2)
+repository/TrafficRepository.java:85:    private final ScheduledExecutorService scheduler = Executors.newSingleThreadSch
+repository/TrafficRepository.java:86:    private final AtomicBoolean refreshing = new AtomicBoolean(false);
+repository/TrafficRepository.java:128:        autoRefreshEnabledLiveData.postValue(enabled);
+repository/TrafficRepository.java:140:        autoRefreshTask = scheduler.scheduleWithFixedDelay(
+repository/TrafficRepository.java:151:        scheduler.shutdownNow();
+repository/TrafficRepository.java:152:        networkExecutor.shutdownNow();
+repository/TrafficRepository.java:161:        isLoadingLiveData.postValue(true);
+repository/TrafficRepository.java:166:            isLoadingLiveData.postValue(false);
+repository/TrafficRepository.java:180:            statusMessageLiveData.postValue(describe(unplanned.source, roadworks.s
+repository/TrafficRepository.java:182:            situationsLiveData.postValue(combined);
+repository/TrafficRepository.java:186:            isLoadingLiveData.postValue(false);
+
+$ S-02  ls src/main/res/layout src/main/res/layout-land
+src/main/res/layout:
+activity_main.xml
+bottom_sheet_detail.xml
+item_situation.xml
+
+src/main/res/layout-land:
+activity_main.xml
+
+$ S-02b view ids only in portrait activity_main ("<") or only in landscape (">")
+< @+id/btnShowList
+< @+id/btnShowMap
+< @+id/toggleViewMode
+
+$ S-02c landscape split weights
+45:            android:layout_weight="0.46"
+160:            android:layout_weight="0.54" />
+
+$ S-03  ls src/main/res/drawable | grep "^ic_" (excluding launcher)
+ic_accident.xml
+ic_closure.xml
+ic_congestion.xml
+ic_event.xml
+ic_info.xml
+ic_obstruction.xml
+ic_roadworks.xml
+ic_weather.xml
+
+$ S-03b icon mapping (SituationStyle.iconFor)
+27:            case ACCIDENT:    return R.drawable.ic_accident;
+28:            case CLOSURE:     return R.drawable.ic_closure;
+29:            case OBSTRUCTION: return R.drawable.ic_obstruction;
+30:            case ROADWORKS:   return R.drawable.ic_roadworks;
+31:            case WEATHER:     return R.drawable.ic_weather;
+32:            case EVENT:       return R.drawable.ic_event;
+33:            case CONGESTION:  return R.drawable.ic_congestion;
+34:            default:          return R.drawable.ic_info;
+
+$ S-04  manifest permissions
+4:    <uses-permission android:name="android.permission.INTERNET" />
+5:    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+6:    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+$ S-05  java sources
+org/me/gcu/trafficscotland_jordan/model/SituationFilter.java
+org/me/gcu/trafficscotland_jordan/model/TrafficSituation.java
+org/me/gcu/trafficscotland_jordan/parser/DatexXmlParser.java
+org/me/gcu/trafficscotland_jordan/repository/TrafficRepository.java
+org/me/gcu/trafficscotland_jordan/view/MainActivity.java
+org/me/gcu/trafficscotland_jordan/view/SituationAdapter.java
+org/me/gcu/trafficscotland_jordan/view/SituationDetailBottomSheet.java
+org/me/gcu/trafficscotland_jordan/view/SituationStyle.java
+org/me/gcu/trafficscotland_jordan/viewmodel/TrafficViewModel.java
+
+$ S-06  XmlPullParser usage
+6:import org.xmlpull.v1.XmlPullParser;
+29:            XmlPullParser xpp = factory.newPullParser();
+44:            while (eventType != XmlPullParser.END_DOCUMENT) {
+48:                if (eventType == XmlPullParser.START_TAG) {
+
+$ S-07  refresh scheduling
+repository/TrafficRepository.java:56:    public static final int AUTO_REFRESH_MINUTES = 5;
+repository/TrafficRepository.java:142:                AUTO_REFRESH_MINUTES,
+repository/TrafficRepository.java:143:                AUTO_REFRESH_MINUTES,
+viewmodel/TrafficViewModel.java:50:        refreshData();   // fetch at start-up; the repository then repeats it on a timer
+
+$ S-08  no credentials stored in source: default values in build.gradle.kts
+14:val clientId = credentialsProps.getProperty("DATEX_CLIENT_ID", "")
+15:val clientKey = credentialsProps.getProperty("DATEX_CLIENT_KEY", "")
+$ search source for key-like strings (40+ chars mixing letters and digits)
+(exit status 1 ; 1 = none found)
+
+$ S-08b .gitignore entries
+3:/local.properties
+4:/credentials.properties
+11:/app/build
+
+$ S-09  connectivity check + completeness check before caching
+212:        if (hasConfiguredCredentials() && isNetworkAvailable()) {
+215:                if (DatexXmlParser.isCompleteDocument(xml)) {
+231:    private boolean isNetworkAvailable() {
+295:            return DatexXmlParser.isCompleteDocument(text) ? text : "";

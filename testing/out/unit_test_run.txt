@@ -1,0 +1,44 @@
+Running org.me.gcu.trafficscotland_jordan.DatexXmlParserTest
+  PASS  ut01_sampleUnplanned_fieldsExtracted
+  PASS  ut02_sampleRoadworks_linearAndDuration
+  PASS  ut03_td1Unplanned_countsAllSituations
+  PASS  ut04_td1Roadworks_prefixedNamespaceParsed
+  PASS  ut05_entityDecodedInComment
+  PASS  ut06_multipleValuesJoinedWithNewline
+  PASS  ut07_missingCommentGetsDefaultText
+  PASS  ut08_roadNameFromTagOrDerivedFromText
+  PASS  ut09_pointOnlyAndNoCoordinates
+  PASS  ut10_linearCoordinatesExtracted
+  PASS  ut11_impactAndSeverityExtracted
+  PASS  ut12_typeNameFormatting
+  PASS  ut13_durationClassificationAndBoundaries
+  PASS  ut14_badgeText
+  PASS  ut15_missingEndTimeHandled
+  PASS  ut16_unplannedAlwaysLiveCategory
+  [Log.e] DatexXmlParser: Error parsing DATEX II XML string with XmlPullParser -> NullPointerException: Cannot read the array length because "this.fCurrentEntity.ch" is null
+  PASS  ut17_malformedXmlDoesNotCrashAndKeepsCompleteRecords
+  PASS  ut18_emptyOrNullInputReturnsEmptyList
+  PASS  ut19_feedCategoryAssigned
+  PASS  ut20_completeDocumentCheckProtectsCache
+Running org.me.gcu.trafficscotland_jordan.TrafficSituationTest
+  PASS  ut21_iconTypeForEveryTd1Situation
+  PASS  ut22_atLeastSixDifferentIconsInUse
+  PASS  ut23_roadCodeSearchIsExact
+  PASS  ut24_roadCodeFoundInTextWhenRoadFieldDiffers
+  PASS  ut25_keywordSearchMatchesCommentText
+  PASS  ut26_blankOrNullQueryMatchesEverything
+Running org.me.gcu.trafficscotland_jordan.SituationFilterTest
+  PASS  ut27_categoryFilterCounts
+  PASS  ut28_roadSearchResults
+  PASS  ut29_searchCombinedWithCategory
+  PASS  ut30_distanceFilterFromGlasgow
+  PASS  ut31_distanceFilterFromEdinburghAndStirling
+  PASS  ut32_distancesMatchIndependentOracle
+  PASS  ut33_distanceResultsSortedNearestFirst
+  PASS  ut34_noCoordinatesHandledWithAndWithoutRadius
+  PASS  ut35_linearSituationUsesDisplayPointForDistance
+  PASS  ut36_combinedSearchAndDistance
+  PASS  ut37_emptyAndNullInput
+  PASS  ut38_distanceFunctionKnownValue
+
+Tests run: 38, Passed: 38, Failed: 0

@@ -1,0 +1,332 @@
+{
+ "U": [
+  {
+   "sid": "SIT_U_1001",
+   "rid": "REC_U_1001",
+   "typ": "Accident",
+   "road": "M8",
+   "sev": "high",
+   "impact": "laneBlocked",
+   "comments": [
+    "M8 Eastbound Junction 15 (Townhead) & Junction 16 - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes."
+   ],
+   "start": "2026-11-17T09:15:00+00:00",
+   "end": "2026-11-17T16:30:00+00:00",
+   "pt": [
+    55.8674,
+    -4.2361
+   ]
+  },
+  {
+   "sid": "SIT_U_1002",
+   "rid": "REC_U_1002",
+   "typ": "AbnormalTraffic",
+   "road": null,
+   "sev": "medium",
+   "impact": null,
+   "comments": [
+    "A9 Northbound approaching Keir roundabout - slow moving traffic due to high volume."
+   ],
+   "start": "2026-11-17T08:00:00+00:00",
+   "end": "2026-11-17T12:00:00+00:00",
+   "pt": [
+    56.15,
+    -3.96
+   ]
+  },
+  {
+   "sid": "SIT_U_1003",
+   "rid": "REC_U_1003",
+   "typ": "VehicleObstruction",
+   "road": "A90",
+   "sev": "low",
+   "impact": "laneBlocked",
+   "comments": [
+    "A90 Southbound near Dundee Kingsway - broken down vehicle on hard shoulder."
+   ],
+   "start": "2026-11-17T10:40:00+00:00",
+   "end": "2026-11-17T13:00:00+00:00",
+   "pt": [
+    56.489,
+    -2.99
+   ]
+  },
+  {
+   "sid": "SIT_U_1004",
+   "rid": "REC_U_1004",
+   "typ": "RoadOrCarriagewayOrLaneManagement",
+   "road": null,
+   "sev": "high",
+   "impact": "roadClosed",
+   "comments": [
+    "A96 Eastbound between Smithton and Raigmore - road closed for emergency repairs."
+   ],
+   "start": "2026-11-17T06:00:00+00:00",
+   "end": "2026-11-17T18:00:00+00:00",
+   "pt": [
+    57.5,
+    -4.06
+   ],
+   "frm": [
+    57.488,
+    -4.09
+   ],
+   "to": [
+    57.512,
+    -4.03
+   ]
+  },
+  {
+   "sid": "SIT_U_1005",
+   "rid": "REC_U_1005",
+   "typ": "Accident",
+   "road": null,
+   "sev": null,
+   "impact": null,
+   "comments": [],
+   "start": "2026-11-17T11:00:00+00:00",
+   "end": "2026-11-17T14:00:00+00:00",
+   "pt": null
+  },
+  {
+   "sid": "SIT_U_1006",
+   "rid": "REC_U_1006",
+   "typ": "Obstruction",
+   "road": "A82",
+   "sev": "medium",
+   "impact": null,
+   "comments": [
+    "A82 Fort William - fallen tree blocking northbound carriageway.",
+    "Recovery vehicle en route."
+   ],
+   "start": "2026-11-17T07:30:00+00:00",
+   "end": "2026-11-17T15:00:00+00:00",
+   "pt": [
+    56.8198,
+    -5.1052
+   ]
+  },
+  {
+   "sid": "SIT_U_1007",
+   "rid": "REC_U_1007",
+   "typ": "PoorEnvironmentConditions",
+   "road": "A9",
+   "sev": "medium",
+   "impact": null,
+   "comments": [
+    "A9 Drumochter Pass - snow and ice, drive with care."
+   ],
+   "start": "2026-11-17T05:00:00+00:00",
+   "end": "2026-11-17T20:00:00+00:00",
+   "pt": [
+    56.87,
+    -4.24
+   ]
+  },
+  {
+   "sid": "SIT_U_1008",
+   "rid": "REC_U_1008",
+   "typ": "PublicEvent",
+   "road": null,
+   "sev": "low",
+   "impact": null,
+   "comments": [
+    "Murrayfield match day - heavy traffic expected around the A8 and Edinburgh City Bypass."
+   ],
+   "start": "2026-11-17T12:00:00+00:00",
+   "end": "2026-11-17T21:00:00+00:00",
+   "pt": [
+    55.942,
+    -3.243
+   ]
+  },
+  {
+   "sid": "SIT_U_1009",
+   "rid": "REC_U_1009",
+   "typ": "GeneralInstructionOrMessageToRoadUsers",
+   "road": "M80",
+   "sev": null,
+   "impact": null,
+   "comments": [
+    "M80 Northbound - temporary 40 mph speed limit in force."
+   ],
+   "start": "2026-11-17T09:00:00+00:00",
+   "end": "2026-11-17T17:00:00+00:00",
+   "pt": [
+    55.93,
+    -4.01
+   ]
+  }
+ ],
+ "R": [
+  {
+   "sid": "SIT_R_2001",
+   "rid": "REC_R_2001",
+   "typ": "MaintenanceWorks",
+   "road": "M8",
+   "impact": "laneClosures",
+   "mt": "resurfacing",
+   "comments": [
+    "M8 Westbound Junction 5 (Harthill) - overnight resurfacing, lane closures in operation."
+   ],
+   "start": "2026-11-17T20:00:00+00:00",
+   "end": "2026-11-18T06:00:00+00:00",
+   "pt": [
+    55.848,
+    -3.74
+   ],
+   "frm": [
+    55.847,
+    -3.72
+   ],
+   "to": [
+    55.849,
+    -3.76
+   ]
+  },
+  {
+   "sid": "SIT_R_2002",
+   "rid": "REC_R_2002",
+   "typ": "MaintenanceWorks",
+   "road": "A77",
+   "impact": "laneClosures",
+   "mt": "drainage",
+   "comments": [
+    "A77 Southbound at Kilmarnock bypass - drainage repairs, temporary traffic lights."
+   ],
+   "start": "2026-11-16T00:00:00+00:00",
+   "end": "2026-11-21T00:00:00+00:00",
+   "pt": [
+    55.59,
+    -4.53
+   ]
+  },
+  {
+   "sid": "SIT_R_2003",
+   "rid": "REC_R_2003",
+   "typ": "ConstructionWorks",
+   "road": "M74",
+   "impact": "contraflow",
+   "mt": null,
+   "comments": [
+    "M74 Northbound near Abington - bridge construction, contraflow in place."
+   ],
+   "start": "2026-11-02T00:00:00+00:00",
+   "end": "2026-12-02T00:00:00+00:00",
+   "pt": [
+    55.48,
+    -3.693
+   ],
+   "frm": [
+    55.47,
+    -3.67
+   ],
+   "to": [
+    55.49,
+    -3.72
+   ]
+  },
+  {
+   "sid": "SIT_R_2004",
+   "rid": "REC_R_2004",
+   "typ": "MaintenanceWorks",
+   "road": "A9",
+   "impact": "laneClosures",
+   "mt": "roadsideWork",
+   "comments": [
+    "A9 Perth to Inveralmond - carriageway improvement scheme."
+   ],
+   "start": "2026-10-20T00:00:00+00:00",
+   "end": "2026-12-20T00:00:00+00:00",
+   "pt": [
+    56.395,
+    -3.4308
+   ]
+  },
+  {
+   "sid": "SIT_R_2005",
+   "rid": "REC_R_2005",
+   "typ": "MaintenanceWorks",
+   "road": "A82",
+   "impact": "laneClosures",
+   "mt": "roadsideWork",
+   "comments": [
+    "A82 Fort William - verge and drainage work (7 day boundary case)."
+   ],
+   "start": "2026-11-15T00:00:00+00:00",
+   "end": "2026-11-22T00:00:00+00:00",
+   "pt": [
+    56.816,
+    -5.112
+   ]
+  },
+  {
+   "sid": "SIT_R_2006",
+   "rid": "REC_R_2006",
+   "typ": "MaintenanceWorks",
+   "road": "A90",
+   "impact": "laneClosures",
+   "mt": "resurfacing",
+   "comments": [
+    "A90 Aberdeen Western Peripheral junction - resurfacing (2 day boundary case)."
+   ],
+   "start": "2026-11-17T08:00:00+00:00",
+   "end": "2026-11-19T08:00:00+00:00",
+   "pt": [
+    57.13,
+    -2.09
+   ]
+  },
+  {
+   "sid": "SIT_R_2007",
+   "rid": "REC_R_2007",
+   "typ": "MaintenanceWorks",
+   "road": null,
+   "impact": null,
+   "mt": null,
+   "comments": [
+    "A720 Edinburgh City Bypass - ongoing barrier works (no end date supplied)."
+   ],
+   "start": "2026-11-10T00:00:00+00:00",
+   "end": null,
+   "pt": [
+    55.91,
+    -3.23
+   ]
+  },
+  {
+   "sid": "SIT_R_2008",
+   "rid": "REC_R_2008",
+   "typ": "MaintenanceWorks",
+   "road": "M90",
+   "impact": "laneClosures",
+   "mt": "resurfacing",
+   "comments": [
+    "M90 Northbound near Kinross - resurfacing (8 day boundary case)."
+   ],
+   "start": "2026-11-10T00:00:00+00:00",
+   "end": "2026-11-18T00:00:00+00:00",
+   "pt": [
+    56.24,
+    -3.42
+   ]
+  },
+  {
+   "sid": "SIT_R_2009",
+   "rid": "REC_R_2009",
+   "typ": "MaintenanceWorks",
+   "road": "A1",
+   "impact": "laneClosures",
+   "mt": "drainage",
+   "comments": [
+    "A1 Southbound near Dunbar - gully clearing (3 day boundary case)."
+   ],
+   "start": "2026-11-17T00:00:00+00:00",
+   "end": "2026-11-19T01:00:00+00:00",
+   "pt": [
+    55.997,
+    -2.516
+   ]
+  }
+ ]
+}

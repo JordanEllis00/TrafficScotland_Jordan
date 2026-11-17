@@ -1,0 +1,662 @@
+{
+ "items": [
+  {
+   "sid": "SIT_U_1001",
+   "cat": "UNPLANNED",
+   "typ": "Accident",
+   "road": "M8",
+   "comment": "M8 Eastbound Junction 15 (Townhead) & Junction 16 - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.",
+   "pt": [
+    55.8674,
+    -4.2361
+   ]
+  },
+  {
+   "sid": "SIT_U_1002",
+   "cat": "UNPLANNED",
+   "typ": "AbnormalTraffic",
+   "road": null,
+   "comment": "A9 Northbound approaching Keir roundabout - slow moving traffic due to high volume.",
+   "pt": [
+    56.15,
+    -3.96
+   ]
+  },
+  {
+   "sid": "SIT_U_1003",
+   "cat": "UNPLANNED",
+   "typ": "VehicleObstruction",
+   "road": "A90",
+   "comment": "A90 Southbound near Dundee Kingsway - broken down vehicle on hard shoulder.",
+   "pt": [
+    56.489,
+    -2.99
+   ]
+  },
+  {
+   "sid": "SIT_U_1004",
+   "cat": "UNPLANNED",
+   "typ": "RoadOrCarriagewayOrLaneManagement",
+   "road": null,
+   "comment": "A96 Eastbound between Smithton and Raigmore - road closed for emergency repairs.",
+   "pt": [
+    57.5,
+    -4.06
+   ]
+  },
+  {
+   "sid": "SIT_U_1005",
+   "cat": "UNPLANNED",
+   "typ": "Accident",
+   "road": null,
+   "comment": "",
+   "pt": null
+  },
+  {
+   "sid": "SIT_U_1006",
+   "cat": "UNPLANNED",
+   "typ": "Obstruction",
+   "road": "A82",
+   "comment": "A82 Fort William - fallen tree blocking northbound carriageway. Recovery vehicle en route.",
+   "pt": [
+    56.8198,
+    -5.1052
+   ]
+  },
+  {
+   "sid": "SIT_U_1007",
+   "cat": "UNPLANNED",
+   "typ": "PoorEnvironmentConditions",
+   "road": "A9",
+   "comment": "A9 Drumochter Pass - snow and ice, drive with care.",
+   "pt": [
+    56.87,
+    -4.24
+   ]
+  },
+  {
+   "sid": "SIT_U_1008",
+   "cat": "UNPLANNED",
+   "typ": "PublicEvent",
+   "road": null,
+   "comment": "Murrayfield match day - heavy traffic expected around the A8 and Edinburgh City Bypass.",
+   "pt": [
+    55.942,
+    -3.243
+   ]
+  },
+  {
+   "sid": "SIT_U_1009",
+   "cat": "UNPLANNED",
+   "typ": "GeneralInstructionOrMessageToRoadUsers",
+   "road": "M80",
+   "comment": "M80 Northbound - temporary 40 mph speed limit in force.",
+   "pt": [
+    55.93,
+    -4.01
+   ]
+  },
+  {
+   "sid": "SIT_R_2001",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "M8",
+   "comment": "M8 Westbound Junction 5 (Harthill) - overnight resurfacing, lane closures in operation.",
+   "pt": [
+    55.848,
+    -3.74
+   ]
+  },
+  {
+   "sid": "SIT_R_2002",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "A77",
+   "comment": "A77 Southbound at Kilmarnock bypass - drainage repairs, temporary traffic lights.",
+   "pt": [
+    55.59,
+    -4.53
+   ]
+  },
+  {
+   "sid": "SIT_R_2003",
+   "cat": "ROADWORKS",
+   "typ": "ConstructionWorks",
+   "road": "M74",
+   "comment": "M74 Northbound near Abington - bridge construction, contraflow in place.",
+   "pt": [
+    55.48,
+    -3.693
+   ]
+  },
+  {
+   "sid": "SIT_R_2004",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "A9",
+   "comment": "A9 Perth to Inveralmond - carriageway improvement scheme.",
+   "pt": [
+    56.395,
+    -3.4308
+   ]
+  },
+  {
+   "sid": "SIT_R_2005",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "A82",
+   "comment": "A82 Fort William - verge and drainage work (7 day boundary case).",
+   "pt": [
+    56.816,
+    -5.112
+   ]
+  },
+  {
+   "sid": "SIT_R_2006",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "A90",
+   "comment": "A90 Aberdeen Western Peripheral junction - resurfacing (2 day boundary case).",
+   "pt": [
+    57.13,
+    -2.09
+   ]
+  },
+  {
+   "sid": "SIT_R_2007",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": null,
+   "comment": "A720 Edinburgh City Bypass - ongoing barrier works (no end date supplied).",
+   "pt": [
+    55.91,
+    -3.23
+   ]
+  },
+  {
+   "sid": "SIT_R_2008",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "M90",
+   "comment": "M90 Northbound near Kinross - resurfacing (8 day boundary case).",
+   "pt": [
+    56.24,
+    -3.42
+   ]
+  },
+  {
+   "sid": "SIT_R_2009",
+   "cat": "ROADWORKS",
+   "typ": "MaintenanceWorks",
+   "road": "A1",
+   "comment": "A1 Southbound near Dunbar - gully clearing (3 day boundary case).",
+   "pt": [
+    55.997,
+    -2.516
+   ]
+  }
+ ],
+ "dist": {
+  "Glasgow": {
+   "SIT_U_1001": 1.0,
+   "SIT_U_1002": 36.7,
+   "SIT_U_1003": 104.8,
+   "SIT_U_1004": 182.5,
+   "SIT_U_1006": 118.8,
+   "SIT_U_1007": 112.0,
+   "SIT_U_1008": 63.7,
+   "SIT_U_1009": 16.8,
+   "SIT_R_2001": 32.1,
+   "SIT_R_2002": 35.2,
+   "SIT_R_2003": 55.4,
+   "SIT_R_2004": 78.1,
+   "SIT_R_2005": 118.6,
+   "SIT_R_2006": 193.9,
+   "SIT_R_2007": 64.1,
+   "SIT_R_2008": 66.6,
+   "SIT_R_2009": 109.5
+  },
+  "Edinburgh": {
+   "SIT_U_1001": 66.2,
+   "SIT_U_1002": 52.8,
+   "SIT_U_1003": 60.9,
+   "SIT_U_1004": 180.3,
+   "SIT_U_1006": 152.7,
+   "SIT_U_1007": 121.0,
+   "SIT_U_1008": 3.6,
+   "SIT_U_1009": 51.4,
+   "SIT_R_2001": 36.4,
+   "SIT_R_2002": 93.4,
+   "SIT_R_2003": 61.5,
+   "SIT_R_2004": 51.4,
+   "SIT_R_2005": 152.8,
+   "SIT_R_2006": 147.4,
+   "SIT_R_2007": 5.5,
+   "SIT_R_2008": 35.0,
+   "SIT_R_2009": 42.3
+  },
+  "Stirling": {
+   "SIT_U_1001": 33.4,
+   "SIT_U_1002": 4.0,
+   "SIT_U_1003": 71.8,
+   "SIT_U_1004": 154.2,
+   "SIT_U_1006": 106.4,
+   "SIT_U_1007": 86.0,
+   "SIT_U_1008": 47.4,
+   "SIT_U_1009": 21.3,
+   "SIT_R_2001": 32.3,
+   "SIT_R_2002": 69.4,
+   "SIT_R_2003": 72.5,
+   "SIT_R_2004": 44.1,
+   "SIT_R_2005": 106.4,
+   "SIT_R_2006": 160.0,
+   "SIT_R_2007": 49.7,
+   "SIT_R_2008": 34.9,
+   "SIT_R_2009": 89.5
+  },
+  "Inverness": {
+   "SIT_U_1001": 179.3,
+   "SIT_U_1002": 148.7,
+   "SIT_U_1003": 133.3,
+   "SIT_U_1004": 10.2,
+   "SIT_U_1006": 90.6,
+   "SIT_U_1007": 67.7,
+   "SIT_U_1008": 181.3,
+   "SIT_U_1009": 172.9,
+   "SIT_R_2001": 183.9,
+   "SIT_R_2002": 211.0,
+   "SIT_R_2003": 224.9,
+   "SIT_R_2004": 129.9,
+   "SIT_R_2005": 91.2,
+   "SIT_R_2006": 134.4,
+   "SIT_R_2007": 184.9,
+   "SIT_R_2008": 146.3,
+   "SIT_R_2009": 195.2
+  }
+ },
+ "filters": {
+  "Glasgow|10": [
+   [
+    "SIT_U_1001",
+    1.0
+   ]
+  ],
+  "Glasgow|25": [
+   [
+    "SIT_U_1001",
+    1.0
+   ],
+   [
+    "SIT_U_1009",
+    16.8
+   ]
+  ],
+  "Glasgow|50": [
+   [
+    "SIT_U_1001",
+    1.0
+   ],
+   [
+    "SIT_U_1009",
+    16.8
+   ],
+   [
+    "SIT_R_2001",
+    32.1
+   ],
+   [
+    "SIT_R_2002",
+    35.2
+   ],
+   [
+    "SIT_U_1002",
+    36.7
+   ]
+  ],
+  "Glasgow|100": [
+   [
+    "SIT_U_1001",
+    1.0
+   ],
+   [
+    "SIT_U_1009",
+    16.8
+   ],
+   [
+    "SIT_R_2001",
+    32.1
+   ],
+   [
+    "SIT_R_2002",
+    35.2
+   ],
+   [
+    "SIT_U_1002",
+    36.7
+   ],
+   [
+    "SIT_R_2003",
+    55.4
+   ],
+   [
+    "SIT_U_1008",
+    63.7
+   ],
+   [
+    "SIT_R_2007",
+    64.1
+   ],
+   [
+    "SIT_R_2008",
+    66.6
+   ],
+   [
+    "SIT_R_2004",
+    78.1
+   ]
+  ],
+  "Edinburgh|10": [
+   [
+    "SIT_U_1008",
+    3.6
+   ],
+   [
+    "SIT_R_2007",
+    5.5
+   ]
+  ],
+  "Edinburgh|25": [
+   [
+    "SIT_U_1008",
+    3.6
+   ],
+   [
+    "SIT_R_2007",
+    5.5
+   ]
+  ],
+  "Edinburgh|50": [
+   [
+    "SIT_U_1008",
+    3.6
+   ],
+   [
+    "SIT_R_2007",
+    5.5
+   ],
+   [
+    "SIT_R_2008",
+    35.0
+   ],
+   [
+    "SIT_R_2001",
+    36.4
+   ],
+   [
+    "SIT_R_2009",
+    42.3
+   ]
+  ],
+  "Edinburgh|100": [
+   [
+    "SIT_U_1008",
+    3.6
+   ],
+   [
+    "SIT_R_2007",
+    5.5
+   ],
+   [
+    "SIT_R_2008",
+    35.0
+   ],
+   [
+    "SIT_R_2001",
+    36.4
+   ],
+   [
+    "SIT_R_2009",
+    42.3
+   ],
+   [
+    "SIT_R_2004",
+    51.4
+   ],
+   [
+    "SIT_U_1009",
+    51.4
+   ],
+   [
+    "SIT_U_1002",
+    52.8
+   ],
+   [
+    "SIT_U_1003",
+    60.9
+   ],
+   [
+    "SIT_R_2003",
+    61.5
+   ],
+   [
+    "SIT_U_1001",
+    66.2
+   ],
+   [
+    "SIT_R_2002",
+    93.4
+   ]
+  ],
+  "Stirling|10": [
+   [
+    "SIT_U_1002",
+    4.0
+   ]
+  ],
+  "Stirling|25": [
+   [
+    "SIT_U_1002",
+    4.0
+   ],
+   [
+    "SIT_U_1009",
+    21.3
+   ]
+  ],
+  "Stirling|50": [
+   [
+    "SIT_U_1002",
+    4.0
+   ],
+   [
+    "SIT_U_1009",
+    21.3
+   ],
+   [
+    "SIT_R_2001",
+    32.3
+   ],
+   [
+    "SIT_U_1001",
+    33.4
+   ],
+   [
+    "SIT_R_2008",
+    34.9
+   ],
+   [
+    "SIT_R_2004",
+    44.1
+   ],
+   [
+    "SIT_U_1008",
+    47.4
+   ],
+   [
+    "SIT_R_2007",
+    49.7
+   ]
+  ],
+  "Stirling|100": [
+   [
+    "SIT_U_1002",
+    4.0
+   ],
+   [
+    "SIT_U_1009",
+    21.3
+   ],
+   [
+    "SIT_R_2001",
+    32.3
+   ],
+   [
+    "SIT_U_1001",
+    33.4
+   ],
+   [
+    "SIT_R_2008",
+    34.9
+   ],
+   [
+    "SIT_R_2004",
+    44.1
+   ],
+   [
+    "SIT_U_1008",
+    47.4
+   ],
+   [
+    "SIT_R_2007",
+    49.7
+   ],
+   [
+    "SIT_R_2002",
+    69.4
+   ],
+   [
+    "SIT_U_1003",
+    71.8
+   ],
+   [
+    "SIT_R_2003",
+    72.5
+   ],
+   [
+    "SIT_U_1007",
+    86.0
+   ],
+   [
+    "SIT_R_2009",
+    89.5
+   ]
+  ],
+  "Inverness|10": [],
+  "Inverness|25": [
+   [
+    "SIT_U_1004",
+    10.2
+   ]
+  ],
+  "Inverness|50": [
+   [
+    "SIT_U_1004",
+    10.2
+   ]
+  ],
+  "Inverness|100": [
+   [
+    "SIT_U_1004",
+    10.2
+   ],
+   [
+    "SIT_U_1007",
+    67.7
+   ],
+   [
+    "SIT_U_1006",
+    90.6
+   ],
+   [
+    "SIT_R_2005",
+    91.2
+   ]
+  ]
+ },
+ "search": {
+  "M8": [
+   "SIT_U_1001",
+   "SIT_R_2001"
+  ],
+  "A9": [
+   "SIT_U_1002",
+   "SIT_U_1007",
+   "SIT_R_2004"
+  ],
+  "a82": [
+   "SIT_U_1006",
+   "SIT_R_2005"
+  ],
+  "M74": [
+   "SIT_R_2003"
+  ],
+  "A720": [
+   "SIT_R_2007"
+  ],
+  "A8": [
+   "SIT_U_1008"
+  ],
+  "A90": [
+   "SIT_U_1003",
+   "SIT_R_2006"
+  ],
+  "A": [
+   "SIT_U_1001",
+   "SIT_U_1002",
+   "SIT_U_1003",
+   "SIT_U_1004",
+   "SIT_U_1006",
+   "SIT_U_1007",
+   "SIT_U_1008",
+   "SIT_U_1009",
+   "SIT_R_2001",
+   "SIT_R_2002",
+   "SIT_R_2003",
+   "SIT_R_2004",
+   "SIT_R_2005",
+   "SIT_R_2006",
+   "SIT_R_2007",
+   "SIT_R_2008",
+   "SIT_R_2009"
+  ],
+  "Fort William": [
+   "SIT_U_1006",
+   "SIT_R_2005"
+  ],
+  "Kilmarnock": [
+   "SIT_R_2002"
+  ],
+  "Z99": []
+ },
+ "icons": {
+  "SIT_U_1001": "ACCIDENT",
+  "SIT_U_1002": "CONGESTION",
+  "SIT_U_1003": "OBSTRUCTION",
+  "SIT_U_1004": "CLOSURE",
+  "SIT_U_1005": "ACCIDENT",
+  "SIT_U_1006": "OBSTRUCTION",
+  "SIT_U_1007": "WEATHER",
+  "SIT_U_1008": "EVENT",
+  "SIT_U_1009": "INFO",
+  "SIT_R_2001": "ROADWORKS",
+  "SIT_R_2002": "ROADWORKS",
+  "SIT_R_2003": "ROADWORKS",
+  "SIT_R_2004": "ROADWORKS",
+  "SIT_R_2005": "ROADWORKS",
+  "SIT_R_2006": "ROADWORKS",
+  "SIT_R_2007": "ROADWORKS",
+  "SIT_R_2008": "ROADWORKS",
+  "SIT_R_2009": "ROADWORKS"
+ },
+ "min_gap": 1.3999999999999986
+}

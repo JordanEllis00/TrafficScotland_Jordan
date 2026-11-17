@@ -1,0 +1,4 @@
+TD-0 unplanned (res/raw)     situations= 1 field-comparisons=  7 mismatches=0
+TD-0 roadworks (res/raw)     situations= 1 field-comparisons=  9 mismatches=0
+TD-1 unplanned               situations= 9 field-comparisons= 69 mismatches=0
+TD-1 roadworks               situations= 9 field-comparisons= 82 mismatches=0

@@ -1,0 +1,1128 @@
+{
+ "TD-0 unplanned (res/raw)": {
+  "rows": [
+   [
+    "SIT_U_1001",
+    [
+     [
+      "situation id",
+      "SIT_U_1001",
+      "SIT_U_1001",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1001",
+      "REC_U_1001",
+      true
+     ],
+     [
+      "type",
+      "Accident",
+      "Accident",
+      true
+     ],
+     [
+      "comment",
+      "M8 Eastbound Junction 15 (Townhead) - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.",
+      "M8 Eastbound Junction 15 (Townhead) - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "12 Nov 2026, 13:15",
+      "12 Nov 2026, 13:15",
+      true
+     ],
+     [
+      "end (displayed)",
+      "12 Nov 2026, 16:30",
+      "12 Nov 2026, 16:30",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.8674, -4.2361)",
+      "(55.8674, -4.2361)",
+      true
+     ]
+    ]
+   ]
+  ],
+  "n": 7,
+  "bad": 0
+ },
+ "TD-0 roadworks (res/raw)": {
+  "rows": [
+   [
+    "SIT_R_2001",
+    [
+     [
+      "situation id",
+      "SIT_R_2001",
+      "SIT_R_2001",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2001",
+      "REC_R_2001",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "M8 Westbound Junction 26 (Hillington) to Junction 28 (Glasgow Airport) - Overnight resurfacing works. Lane closures in operation.",
+      "M8 Westbound Junction 26 (Hillington) to Junction 28 (Glasgow Airport) - Overnight resurfacing works. Lane closures in operation.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "10 Nov 2026, 20:00",
+      "10 Nov 2026, 20:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "24 Nov 2026, 06:00",
+      "24 Nov 2026, 06:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.859, -4.395)",
+      "(55.859, -4.395)",
+      true
+     ],
+     [
+      "linear from/to",
+      "((55.8569, -4.3742), (55.8641, -4.4258))",
+      "((55.8569, -4.3742), (55.8641, -4.4258))",
+      true
+     ],
+     [
+      "duration days",
+      "14",
+      "14",
+      true
+     ]
+    ]
+   ]
+  ],
+  "n": 9,
+  "bad": 0
+ },
+ "TD-1 unplanned": {
+  "rows": [
+   [
+    "SIT_U_1001",
+    [
+     [
+      "situation id",
+      "SIT_U_1001",
+      "SIT_U_1001",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1001",
+      "REC_U_1001",
+      true
+     ],
+     [
+      "type",
+      "Accident",
+      "Accident",
+      true
+     ],
+     [
+      "comment",
+      "M8 Eastbound Junction 15 (Townhead) & Junction 16 - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.",
+      "M8 Eastbound Junction 15 (Townhead) & Junction 16 - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 09:15",
+      "17 Nov 2026, 09:15",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 16:30",
+      "17 Nov 2026, 16:30",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.8674, -4.2361)",
+      "(55.8674, -4.2361)",
+      true
+     ],
+     [
+      "road (tag)",
+      "M8",
+      "M8",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1002",
+    [
+     [
+      "situation id",
+      "SIT_U_1002",
+      "SIT_U_1002",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1002",
+      "REC_U_1002",
+      true
+     ],
+     [
+      "type",
+      "Abnormal Traffic",
+      "Abnormal Traffic",
+      true
+     ],
+     [
+      "comment",
+      "A9 Northbound approaching Keir roundabout - slow moving traffic due to high volume.",
+      "A9 Northbound approaching Keir roundabout - slow moving traffic due to high volume.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 08:00",
+      "17 Nov 2026, 08:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 12:00",
+      "17 Nov 2026, 12:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.15, -3.96)",
+      "(56.15, -3.96)",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1003",
+    [
+     [
+      "situation id",
+      "SIT_U_1003",
+      "SIT_U_1003",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1003",
+      "REC_U_1003",
+      true
+     ],
+     [
+      "type",
+      "Vehicle Obstruction",
+      "Vehicle Obstruction",
+      true
+     ],
+     [
+      "comment",
+      "A90 Southbound near Dundee Kingsway - broken down vehicle on hard shoulder.",
+      "A90 Southbound near Dundee Kingsway - broken down vehicle on hard shoulder.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 10:40",
+      "17 Nov 2026, 10:40",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 13:00",
+      "17 Nov 2026, 13:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.489, -2.99)",
+      "(56.489, -2.99)",
+      true
+     ],
+     [
+      "road (tag)",
+      "A90",
+      "A90",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1004",
+    [
+     [
+      "situation id",
+      "SIT_U_1004",
+      "SIT_U_1004",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1004",
+      "REC_U_1004",
+      true
+     ],
+     [
+      "type",
+      "Road Or Carriageway Or Lane Management",
+      "Road Or Carriageway Or Lane Management",
+      true
+     ],
+     [
+      "comment",
+      "A96 Eastbound between Smithton and Raigmore - road closed for emergency repairs.",
+      "A96 Eastbound between Smithton and Raigmore - road closed for emergency repairs.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 06:00",
+      "17 Nov 2026, 06:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 18:00",
+      "17 Nov 2026, 18:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(57.5, -4.06)",
+      "(57.5, -4.06)",
+      true
+     ],
+     [
+      "linear from/to",
+      "((57.488, -4.09), (57.512, -4.03))",
+      "((57.488, -4.09), (57.512, -4.03))",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1005",
+    [
+     [
+      "situation id",
+      "SIT_U_1005",
+      "SIT_U_1005",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1005",
+      "REC_U_1005",
+      true
+     ],
+     [
+      "type",
+      "Accident",
+      "Accident",
+      true
+     ],
+     [
+      "comment",
+      "No public comment details provided by Traffic Scotland.",
+      "No public comment details provided by Traffic Scotland.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 11:00",
+      "17 Nov 2026, 11:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 14:00",
+      "17 Nov 2026, 14:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "None",
+      "None",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1006",
+    [
+     [
+      "situation id",
+      "SIT_U_1006",
+      "SIT_U_1006",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1006",
+      "REC_U_1006",
+      true
+     ],
+     [
+      "type",
+      "Obstruction",
+      "Obstruction",
+      true
+     ],
+     [
+      "comment",
+      "A82 Fort William - fallen tree blocking northbound carriageway.\nRecovery vehicle en route.",
+      "A82 Fort William - fallen tree blocking northbound carriageway.\nRecovery vehicle en route.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 07:30",
+      "17 Nov 2026, 07:30",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 15:00",
+      "17 Nov 2026, 15:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.8198, -5.1052)",
+      "(56.8198, -5.1052)",
+      true
+     ],
+     [
+      "road (tag)",
+      "A82",
+      "A82",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1007",
+    [
+     [
+      "situation id",
+      "SIT_U_1007",
+      "SIT_U_1007",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1007",
+      "REC_U_1007",
+      true
+     ],
+     [
+      "type",
+      "Poor Environment Conditions",
+      "Poor Environment Conditions",
+      true
+     ],
+     [
+      "comment",
+      "A9 Drumochter Pass - snow and ice, drive with care.",
+      "A9 Drumochter Pass - snow and ice, drive with care.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 05:00",
+      "17 Nov 2026, 05:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 20:00",
+      "17 Nov 2026, 20:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.87, -4.24)",
+      "(56.87, -4.24)",
+      true
+     ],
+     [
+      "road (tag)",
+      "A9",
+      "A9",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1008",
+    [
+     [
+      "situation id",
+      "SIT_U_1008",
+      "SIT_U_1008",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1008",
+      "REC_U_1008",
+      true
+     ],
+     [
+      "type",
+      "Public Event",
+      "Public Event",
+      true
+     ],
+     [
+      "comment",
+      "Murrayfield match day - heavy traffic expected around the A8 and Edinburgh City Bypass.",
+      "Murrayfield match day - heavy traffic expected around the A8 and Edinburgh City Bypass.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 12:00",
+      "17 Nov 2026, 12:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 21:00",
+      "17 Nov 2026, 21:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.942, -3.243)",
+      "(55.942, -3.243)",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_U_1009",
+    [
+     [
+      "situation id",
+      "SIT_U_1009",
+      "SIT_U_1009",
+      true
+     ],
+     [
+      "record id",
+      "REC_U_1009",
+      "REC_U_1009",
+      true
+     ],
+     [
+      "type",
+      "General Instruction Or Message To Road Users",
+      "General Instruction Or Message To Road Users",
+      true
+     ],
+     [
+      "comment",
+      "M80 Northbound - temporary 40 mph speed limit in force.",
+      "M80 Northbound - temporary 40 mph speed limit in force.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 09:00",
+      "17 Nov 2026, 09:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "17 Nov 2026, 17:00",
+      "17 Nov 2026, 17:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.93, -4.01)",
+      "(55.93, -4.01)",
+      true
+     ],
+     [
+      "road (tag)",
+      "M80",
+      "M80",
+      true
+     ]
+    ]
+   ]
+  ],
+  "n": 69,
+  "bad": 0
+ },
+ "TD-1 roadworks": {
+  "rows": [
+   [
+    "SIT_R_2001",
+    [
+     [
+      "situation id",
+      "SIT_R_2001",
+      "SIT_R_2001",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2001",
+      "REC_R_2001",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "M8 Westbound Junction 5 (Harthill) - overnight resurfacing, lane closures in operation.",
+      "M8 Westbound Junction 5 (Harthill) - overnight resurfacing, lane closures in operation.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 20:00",
+      "17 Nov 2026, 20:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "18 Nov 2026, 06:00",
+      "18 Nov 2026, 06:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.848, -3.74)",
+      "(55.848, -3.74)",
+      true
+     ],
+     [
+      "linear from/to",
+      "((55.847, -3.72), (55.849, -3.76))",
+      "((55.847, -3.72), (55.849, -3.76))",
+      true
+     ],
+     [
+      "duration days",
+      "1",
+      "1",
+      true
+     ],
+     [
+      "road (tag)",
+      "M8",
+      "M8",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2002",
+    [
+     [
+      "situation id",
+      "SIT_R_2002",
+      "SIT_R_2002",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2002",
+      "REC_R_2002",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A77 Southbound at Kilmarnock bypass - drainage repairs, temporary traffic lights.",
+      "A77 Southbound at Kilmarnock bypass - drainage repairs, temporary traffic lights.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "16 Nov 2026, 00:00",
+      "16 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "21 Nov 2026, 00:00",
+      "21 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.59, -4.53)",
+      "(55.59, -4.53)",
+      true
+     ],
+     [
+      "duration days",
+      "5",
+      "5",
+      true
+     ],
+     [
+      "road (tag)",
+      "A77",
+      "A77",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2003",
+    [
+     [
+      "situation id",
+      "SIT_R_2003",
+      "SIT_R_2003",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2003",
+      "REC_R_2003",
+      true
+     ],
+     [
+      "type",
+      "Construction Works",
+      "Construction Works",
+      true
+     ],
+     [
+      "comment",
+      "M74 Northbound near Abington - bridge construction, contraflow in place.",
+      "M74 Northbound near Abington - bridge construction, contraflow in place.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "02 Nov 2026, 00:00",
+      "02 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "02 Dec 2026, 00:00",
+      "02 Dec 2026, 00:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.48, -3.693)",
+      "(55.48, -3.693)",
+      true
+     ],
+     [
+      "linear from/to",
+      "((55.47, -3.67), (55.49, -3.72))",
+      "((55.47, -3.67), (55.49, -3.72))",
+      true
+     ],
+     [
+      "duration days",
+      "30",
+      "30",
+      true
+     ],
+     [
+      "road (tag)",
+      "M74",
+      "M74",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2004",
+    [
+     [
+      "situation id",
+      "SIT_R_2004",
+      "SIT_R_2004",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2004",
+      "REC_R_2004",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A9 Perth to Inveralmond - carriageway improvement scheme.",
+      "A9 Perth to Inveralmond - carriageway improvement scheme.",
+      true
+     ],
+     [
+      "start (displayed)",
+      "20 Oct 2026, 00:00",
+      "20 Oct 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "20 Dec 2026, 00:00",
+      "20 Dec 2026, 00:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.395, -3.4308)",
+      "(56.395, -3.4308)",
+      true
+     ],
+     [
+      "duration days",
+      "61",
+      "61",
+      true
+     ],
+     [
+      "road (tag)",
+      "A9",
+      "A9",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2005",
+    [
+     [
+      "situation id",
+      "SIT_R_2005",
+      "SIT_R_2005",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2005",
+      "REC_R_2005",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A82 Fort William - verge and drainage work (7 day boundary case).",
+      "A82 Fort William - verge and drainage work (7 day boundary case).",
+      true
+     ],
+     [
+      "start (displayed)",
+      "15 Nov 2026, 00:00",
+      "15 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "22 Nov 2026, 00:00",
+      "22 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.816, -5.112)",
+      "(56.816, -5.112)",
+      true
+     ],
+     [
+      "duration days",
+      "7",
+      "7",
+      true
+     ],
+     [
+      "road (tag)",
+      "A82",
+      "A82",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2006",
+    [
+     [
+      "situation id",
+      "SIT_R_2006",
+      "SIT_R_2006",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2006",
+      "REC_R_2006",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A90 Aberdeen Western Peripheral junction - resurfacing (2 day boundary case).",
+      "A90 Aberdeen Western Peripheral junction - resurfacing (2 day boundary case).",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 08:00",
+      "17 Nov 2026, 08:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "19 Nov 2026, 08:00",
+      "19 Nov 2026, 08:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(57.13, -2.09)",
+      "(57.13, -2.09)",
+      true
+     ],
+     [
+      "duration days",
+      "2",
+      "2",
+      true
+     ],
+     [
+      "road (tag)",
+      "A90",
+      "A90",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2007",
+    [
+     [
+      "situation id",
+      "SIT_R_2007",
+      "SIT_R_2007",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2007",
+      "REC_R_2007",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A720 Edinburgh City Bypass - ongoing barrier works (no end date supplied).",
+      "A720 Edinburgh City Bypass - ongoing barrier works (no end date supplied).",
+      true
+     ],
+     [
+      "start (displayed)",
+      "10 Nov 2026, 00:00",
+      "10 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "Not specified",
+      "Not specified",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.91, -3.23)",
+      "(55.91, -3.23)",
+      true
+     ],
+     [
+      "duration days",
+      "-1",
+      "-1",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2008",
+    [
+     [
+      "situation id",
+      "SIT_R_2008",
+      "SIT_R_2008",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2008",
+      "REC_R_2008",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "M90 Northbound near Kinross - resurfacing (8 day boundary case).",
+      "M90 Northbound near Kinross - resurfacing (8 day boundary case).",
+      true
+     ],
+     [
+      "start (displayed)",
+      "10 Nov 2026, 00:00",
+      "10 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "18 Nov 2026, 00:00",
+      "18 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(56.24, -3.42)",
+      "(56.24, -3.42)",
+      true
+     ],
+     [
+      "duration days",
+      "8",
+      "8",
+      true
+     ],
+     [
+      "road (tag)",
+      "M90",
+      "M90",
+      true
+     ]
+    ]
+   ],
+   [
+    "SIT_R_2009",
+    [
+     [
+      "situation id",
+      "SIT_R_2009",
+      "SIT_R_2009",
+      true
+     ],
+     [
+      "record id",
+      "REC_R_2009",
+      "REC_R_2009",
+      true
+     ],
+     [
+      "type",
+      "Maintenance Works",
+      "Maintenance Works",
+      true
+     ],
+     [
+      "comment",
+      "A1 Southbound near Dunbar - gully clearing (3 day boundary case).",
+      "A1 Southbound near Dunbar - gully clearing (3 day boundary case).",
+      true
+     ],
+     [
+      "start (displayed)",
+      "17 Nov 2026, 00:00",
+      "17 Nov 2026, 00:00",
+      true
+     ],
+     [
+      "end (displayed)",
+      "19 Nov 2026, 01:00",
+      "19 Nov 2026, 01:00",
+      true
+     ],
+     [
+      "lat/lon",
+      "(55.997, -2.516)",
+      "(55.997, -2.516)",
+      true
+     ],
+     [
+      "duration days",
+      "3",
+      "3",
+      true
+     ],
+     [
+      "road (tag)",
+      "A1",
+      "A1",
+      true
+     ]
+    ]
+   ]
+  ],
+  "n": 82,
+  "bad": 0
+ }
+}

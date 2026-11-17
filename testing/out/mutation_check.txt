@@ -1,0 +1,22 @@
+KILLED  M1 road search matches by substring (A9 also returns A90)
+         failing tests: ut23_roadCodeSearchIsExact, ut28_roadSearchResults
+KILLED  M2 medium/long boundary moved (>7 becomes >8 days)
+         failing tests: ut13_durationClassificationAndBoundaries
+KILLED  M3 distance filter inverted (> instead of <=)
+         failing tests: ut30_distanceFilterFromGlasgow, ut31_distanceFilterFromEdinburghAndStirling, ut32_distancesMatchIndependentOracle, ut35_linearSituationUsesDisplayPointForDistance, ut36_combinedSearchAndDistance
+KILLED  M4 results not sorted nearest-first
+         failing tests: ut30_distanceFilterFromGlasgow, ut31_distanceFilterFromEdinburghAndStirling, ut33_distanceResultsSortedNearestFirst
+KILLED  M5 unknown duration reported as SHORT
+         failing tests: ut15_missingEndTimeHandled
+KILLED  M6 weather icon rule removed
+         failing tests: ut21_iconTypeForEveryTd1Situation, ut22_atLeastSixDifferentIconsInUse
+KILLED  M7 parser ignores generalPublicComment 'value' joining
+         failing tests: ut06_multipleValuesJoinedWithNewline, ut25_keywordSearchMatchesCommentText, ut28_roadSearchResults
+KILLED  M8 default comment text removed
+         failing tests: ut07_missingCommentGetsDefaultText
+KILLED  M9 truncated-download check always true
+         failing tests: ut20_completeDocumentCheckProtectsCache
+KILLED  M10 category filter ignores roadworks-only
+         failing tests: ut27_categoryFilterCounts, ut29_searchCombinedWithCategory
+
+Mutants killed: 10 of 10
