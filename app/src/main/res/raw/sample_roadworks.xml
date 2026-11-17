@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2">
+  <payloadPublication xsi:type="SituationPublication" lang="en">
+    <situation id="SIT_R_2001">
+      <situationRecord xsi:type="MaintenanceWorks" id="REC_R_2001" version="4">
+        <generalPublicComment>
+          <comment>
+            <values>
+              <value lang="en">M8 Westbound Junction 26 (Hillington) to Junction 28 (Glasgow Airport) - Overnight resurfacing works. Lane closures in operation.</value>
+            </values>
+          </comment>
+        </generalPublicComment>
+        <validity>
+          <validityTimeSpecification>
+            <overallStartTime>2026-11-10T20:00:00+00:00</overallStartTime>
+            <overallEndTime>2026-11-24T06:00:00+00:00</overallEndTime>
+          </validityTimeSpecification>
+        </validity>
+        <groupOfLocations xsi:type="Linear">
+          <locationForDisplay>
+            <latitude>55.8590</latitude>
+            <longitude>-4.3950</longitude>
+          </locationForDisplay>
+          <linearExtension>
+            <linearByCoordinatesExtension>
+              <linearCoordinatesStartPoint>
+                <pointCoordinates>
+                  <latitude>55.8569</latitude>
+                  <longitude>-4.3742</longitude>
+                </pointCoordinates>
+              </linearCoordinatesStartPoint>
+              <linearCoordinatesEndPoint>
+                <pointCoordinates>
+                  <latitude>55.8641</latitude>
+                  <longitude>-4.4258</longitude>
+                </pointCoordinates>
+              </linearCoordinatesEndPoint>
+            </linearByCoordinatesExtension>
+          </linearExtension>
+        </groupOfLocations>
+      </situationRecord>
+    </situation>
+  </payloadPublication>
+</d2LogicalModel>

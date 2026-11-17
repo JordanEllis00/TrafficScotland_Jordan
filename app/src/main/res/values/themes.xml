@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.TrafficScotlandApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="android:windowBackground">@color/surface_bg</item>
+    </style>
+</resources>

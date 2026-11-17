@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2">
+  <payloadPublication xsi:type="SituationPublication" lang="en">
+    <situation id="SIT_U_1001">
+      <situationRecord xsi:type="Accident" id="REC_U_1001" version="1">
+        <generalPublicComment>
+          <comment>
+            <values>
+              <value lang="en">M8 Eastbound Junction 15 (Townhead) - Lane 1 blocked due to a multi-vehicle collision. Delays of approximately 20 minutes.</value>
+            </values>
+          </comment>
+        </generalPublicComment>
+        <validity>
+          <validityTimeSpecification>
+            <overallStartTime>2026-11-12T13:15:00+00:00</overallStartTime>
+            <overallEndTime>2026-11-12T16:30:00+00:00</overallEndTime>
+          </validityTimeSpecification>
+        </validity>
+        <groupOfLocations xsi:type="Point">
+          <locationForDisplay>
+            <latitude>55.8674</latitude>
+            <longitude>-4.2361</longitude>
+          </locationForDisplay>
+        </groupOfLocations>
+      </situationRecord>
+    </situation>
+  </payloadPublication>
+</d2LogicalModel>

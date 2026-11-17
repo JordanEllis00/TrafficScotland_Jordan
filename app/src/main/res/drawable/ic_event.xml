@@ -1,0 +1,13 @@
+<!-- Original icon drawn for this project (flag = public event / activity). No third-party source. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M5,3 L7,3 L7,21 L5,21 Z" />
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M7,4 L20,4 L16.5,8.5 L20,13 L7,13 Z" />
+</vector>

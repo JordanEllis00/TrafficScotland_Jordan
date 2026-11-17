@@ -1,0 +1,15 @@
+<resources>
+    <color name="primary_blue">#003B5C</color>
+    <color name="primary_dark">#00263D</color>
+    <color name="accent_teal">#007791</color>
+    <color name="surface_bg">#F4F6F9</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#1A202C</color>
+    <color name="text_secondary">#4A5568</color>
+
+    <color name="severity_short">#2E7D32</color>
+    <color name="severity_medium">#EF6C00</color>
+    <color name="severity_long">#C62828</color>
+    <color name="severity_unplanned">#1565C0</color>
+    <color name="severity_unknown">#546E7A</color>
+</resources>
